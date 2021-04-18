@@ -1,0 +1,3 @@
+<html lang="en"></html> debemos cambiarlos por
+lang="es", porque si no el navegador va a internar
+traducirlo del inglés.
