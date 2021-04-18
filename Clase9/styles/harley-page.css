@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0px;
+    height: 100%;
+    background-image: url(../img/bg-bigHarley.jpg);
+    background-size: cover;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: #00669F;
+    
+}
+
+.discount-banner {
+    background-color: #1CD1B0;
+    font-size: 1em;
+    padding: 3px 15px;
+    font-weight: 500;
+    padding-left: 1em;
+}
+.tienda-logo{
+    padding-top: 1em;
+    margin-bottom: -1.8em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+h1 {
+    color: white;
+    margin-top: 0px;
+    font-weight: 200;
+    padding: 10px 15px;
+    font-size: 1.7em;
+    display: inline-block;
+}
+h2{
+    color: #2C0187;
+    margin: auto;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+    /* margin-top: 1.4em; */
+    /* margin-bottom: 0.7em; */
+}
+
+.main-card {
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 37%;
+    border-radius: 40px;
+    background-color: #F3F3F3;
+    position: relative;
+}
+.card-profile{
+    position: absolute;
+    left: 37%;
+    top: -13%;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-image: url(../img/batman.jpg);
+    height: 100px;
+    width: 100px;
+}
+.heart-icon {
+    position: relative;
+    left: 1em;
+    top: 3em;
+    /* fill: red; */
+}
+
+.card-description {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.text-to-style {
+    color: #2C0187;
+}
+.italics {
+    font-style: italic;
+}
+.character-items{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 16.3%;
+}
+.button-container{
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+.back-to-home {
+    text-align: center;
+    padding: 1.6em;
+    color: white;
+    background-color: #2C0187;
+    border-radius: 0 0 40px 40px;
+}
+div a {
+    text-decoration: none;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #00669F;;
+    text-align: center;
+    width: 100%;
+}
+footer p {
+    color: white;
+}
