@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/add-superhero.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/solid.css" integrity="sha384-LA8Ug4T/nhVkyhrSmSirsoAo9iDrBk8E7U80aSPeD+w3vO8PzOJIS6agGcbIwwX0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/fontawesome.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<body>
+    <aside class="discount-banner">20% de descuento en todos los productos!</aside>
+    <header>
+        <img src="img/tienda-log.svg" alt="#" class="tienda-logo">
+        <h1 class="main-title">Nombre Tienda</h1>
+        <nav class="nav-bar">
+            <ul type="none">
+                <li class="page-links"><a href="contact.html">Contacto</a></li>
+                <li class="page-links"><a href="register.html">Registrarme</a></li>
+                <li class="page-links"><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Añadí tu super!</h2>
+            <p class="subtitle-section">Agregá tu personaje favorito, completando las opciones</p>
+            <div class="column1">
+                <label for="name" class="input-title">Nombre</label><br>
+                    <input type="text" name="name" id="name" required>
+                <br><br>
+                <label for="user-date" class="input-title">Fecha</label><br>
+                    <input type="date" name="user-date" id="user-date">
+                <br><br>
+                <textarea name="description-box" id="description-box" cols="30" rows="10" class="description-box" placeholder="Descripción"></textarea>
+            </div>
+            <div class="column2">
+                <label for="especie" class="input-title"></label>Especie<br>
+                    <select name="especie" id="especie">
+                        <option value="" disabled selected hidden>Especie</option>
+                        <option value="deidad">Deidad</option>
+                        <option value="robot">Robot</option>
+                        <option value="mutante">Mutante</option>
+                        <option value="humano">Humano</option>
+                    </select>
+                <br><br>
+                <label for="profile-pic" class="input-title">Agregar Foto</label><br>
+                     <!--recordar agregar OnInvalid personalizado-->
+                    <input type="file" name="profile-pic" id="profile-pic">
+                <br><br><!--Revisar a ver si se le puede quitar margen izquierdo a los checks-->
+                <label class="input-title">Poderes</label> <br>
+                    <input type="checkbox" name="hero-power1" id="hero-power1" value="volar"><label for="hero-power1"><span class="ligher-text-weight">Volar</span></label><br>
+                    <input type="checkbox" name="hero-power2" id="hero-power2" value="superInteligencia"><label for="hero-power2">SuperInteligencia</label><br>
+                    <input type="checkbox" name="hero-power3" id="hero-power3" value="vista-rayo"><label for="hero-power3">Vista de rayo láser</label><br>
+                    <input type="checkbox" name="hero-power4" id="hero-power4" value="billetera-gorda"><label for="hero-power4">Billetera Gorda</label>
+                <br>
+                <hr>
+                <label class="input-title">Tipo de personaje</label><br>
+                    <input type="radio" id="hero-goodone" name="good-or-bad"><label for="hero-goodone">Héroe / Heroina</label><br>
+                    <input type="radio" id="hero-badone" name="good-or-bad"><label for="hero-badone">Villano / Villana</label>
+                <br>
+            </div><br>
+            <button class="boton-add" type="submit">Añadir</button>
+        </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <p class="footer-description">Todos los derechos reservados a FRONT END 1</p>
+        </div>
+    </footer>
+</body>
+</html>

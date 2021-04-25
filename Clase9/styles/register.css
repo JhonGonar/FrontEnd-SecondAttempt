@@ -51,12 +51,12 @@ h2{
     text-align: left;
     width: 30%;
 }
-.input-box{
-    width: 100%;
-    height: 40px;
-    padding-left: 20px;
-    border: solid black 1px;
-}
+    .input-box{
+        width: 100%;
+        height: 40px;
+        padding-left: 20px;
+        border: solid black 1px;
+    }
 .button-reset {
     color: white;
     background-color: #888888;
@@ -88,7 +88,6 @@ form p {
     text-align: center;
     color: #00669F;
 }
-
 footer {
     position: absolute;
     bottom: 0;
