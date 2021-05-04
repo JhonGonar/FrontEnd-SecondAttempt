@@ -144,6 +144,8 @@ input[type="checkbox"], input[type="radio"] {
     margin-right: 1em;
     /* margin-bottom: .7em; */
     transform: scale(1.3);
+    border-style: none;
+    margin-top: 8px;
 } 
 
 input[type="date"]{
